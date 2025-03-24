@@ -1,8 +1,9 @@
-class FacebookRunner
+class FaceBookRunner
 {
-	public static void main(String args[])
-	{
-	
-	 String message = Facebook.register("baba");
-	 System.out.println(message);
-	 }}
+public static void main(String login[])
+{
+String msg = FaceBook.login("pavi@gmail.com" , "biryani");
+System.out.println(msg);
+boolean isLogin = FaceBook.login("biryani" , "female" , "9880478053" );
+System.out.println(isLogin);
+}}
