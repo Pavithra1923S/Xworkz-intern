@@ -1,27 +1,49 @@
 class Dmart
 {
+	static String stationaries[] ={"pen" , "pencil" , "eraser" , "Scale" , "ColorPencils" , "Books" , "Box" , "Storybooks" , "Sharpner" , "Stickers" , "Stetchpens"};
+	static String alcohols[] ={"BlackWhite" , "kingFisher" , "Omr" , "LookOut"};
+	static String dairyProducts[] ={"Milk" , "Curd" , "Ghee" , "Cheese"};
+	
 	public static void main(String args[])
-	{
-	// array
-	String stationaries[] ={"pen" , "pencil" , "eraser" , "Scale" , "ColorPencils" , "Books" , "Box" , "Storybooks" , "Sharpner" , "Stickers" , "Stetchpens"};
-	System.out.println("Number of items Available are :" + stationaries.length );
-	System.out.println("list of items Available are :");
-	System.out.println(stationaries[0] + " " + stationaries[1] + " " + stationaries[2] + " " + stationaries[3] + " " + stationaries[4] + " " + stationaries[5] + " " + stationaries[6] + " " + stationaries[7] + " " + stationaries[8] + " " + stationaries[9] + "\n" );
-	
-	
-	
-	String alcohols[] ={"BlackWhite" , "kingFisher" , "Omr" , "LookOut"};
-	System.out.println("The total number of drinks present :" + alcohols.length);
-	System.out.println("The total number of Items Present are :");
-	System.out.println(alcohols[0]  + " " +   alcohols[1]+ " "   +  alcohols[2] + " " + alcohols[3]+"\n" );
-	
-	// external refering
-	String ref1 = alcohols[1];
-	System.out.println(ref1);
-	
-	String dairyProducts[] ={"Milk" , "Curd" , "Ghee" , "Cheese"};
-	System.out.println("The total number of Product are:" +dairyProducts.length);
-	System.out.println("The list of dairy products are: ");
-	System.out.println(dairyProducts[0] + " " + dairyProducts[1] + " " + dairyProducts[2] + " " + dairyProducts[3] );
+	{System.out.println("Main started");
+	 getstationaries();
+	 getalcohols();
+	 getdairyProducts();
+	 System.out.println("Main ended");
 	}
+	
+	public static void getstationaries()
+	{
+		System.out.println(" inside the getstationaries ");
+		System.out.println(" The total number of stationaries are :" + stationaries.length);
+	    System.out.println(" The total list of Stationaries are :");
+		for( String items : stationaries){
+		System.out.println(items);
+		}
+		System.out.println("out of getstationaries");
+	}
+	
+	public static void getalcohols()
+	{
+		System.out.println(" inside the getalcohols ");
+		System.out.println(" The total number of alcohols are :" + alcohols.length);
+	    System.out.println(" The total list of alcohols are :");
+		for( String items : alcohols){
+		System.out.println(items);
+		}
+		System.out.println("out of getalcohols");
+	}
+	
+	public static void getdairyProducts()
+	{
+		System.out.println(" inside the getdairyProducts ");
+		System.out.println(" The total number of dairyProducts are :" + dairyProducts.length);
+	    System.out.println(" The total list of dairyProducts are :");
+		for( String items : dairyProducts){
+		System.out.println(items);
+		}
+		System.out.println("out of getdairyProducts");
+	}
+	
+	
 }
