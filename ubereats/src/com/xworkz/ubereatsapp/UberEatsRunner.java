@@ -6,11 +6,11 @@ public class UberEatsRunner
 
         public static void main(String[] args) {
             UberEatsUserDto user1 = new UberEatsUserDto();
-            user1.setEmail("foodie@example.com");
-            user1.setPhoneNumber("9998887776");
-            user1.setFullName("Priya Sharma");
-            user1.setPassword("YummyFood@2024");
-            user1.setDeliveryAddress("HSR Layout, Bangalore");
+            user1.setEmail("pavithra.com");
+            user1.setPhoneNumber("9880456087");
+            user1.setFullName("Pavithra");
+            user1.setPassword("Biryani");
+            user1.setDeliveryAddress("Chanpatna");
 
             UberEats uberEats = new UberEats();
             if (uberEats.userSignUp(user1)) {

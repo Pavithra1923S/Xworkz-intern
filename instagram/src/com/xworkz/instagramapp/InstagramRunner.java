@@ -7,11 +7,11 @@ public class InstagramRunner
     public static void main(String[] args)
     {
         UserDataDto user1=new UserDataDto();
-        user1.setEmail("Baba@gmail.com");
-        user1.setDob("12-12-1890");
-        user1.setName("Baba Ram Dev");
-        user1.setUserName("Baba");
-        user1.setPassword("Baba@123");
+        user1.setEmail("pavithra@gmail.com");
+        user1.setDob("12-12-2003");
+        user1.setName("Pavithra");
+        user1.setUserName("Pavithra");
+        user1.setPassword("Biryani");
 
         Instagram user=new Instagram();
         if(user.userSignUp(user1))

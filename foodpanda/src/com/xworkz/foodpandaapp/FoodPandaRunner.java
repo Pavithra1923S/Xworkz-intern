@@ -6,11 +6,11 @@ public class FoodPandaRunner
 
         public static void main(String[] args) {
             FoodPandaUserDto user1 = new FoodPandaUserDto();
-            user1.setEmail("hungrybear@foodpanda.com");
-            user1.setPhoneNumber("9012345678");
-            user1.setPassword("PandaEats@2024");
-            user1.setFullName("Ankita Joshi");
-            user1.setAddress("Koramangala, Bangalore");
+            user1.setEmail("pavithra@gmail.com");
+            user1.setPhoneNumber("1234567890");
+            user1.setPassword("Biryani@01");
+            user1.setFullName("Pavithra");
+            user1.setAddress("Bangalore");
 
             FoodPanda foodpanda = new FoodPanda();
             if (foodpanda.userSignUp(user1)) {

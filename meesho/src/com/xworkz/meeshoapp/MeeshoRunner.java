@@ -6,11 +6,11 @@ public class MeeshoRunner
 
         public static void main(String[] args) {
             MeeshoUserDto user1 = new MeeshoUserDto();
-            user1.setEmail("seller@meesho.com");
-            user1.setPhoneNumber("9876543210");
-            user1.setPassword("SellNow@2024");
-            user1.setFullName("Sneha Kapoor");
-            user1.setBusinessName("Sneha Fashion Hub");
+            user1.setEmail("pavithrasgowda1923@gmail.com");
+            user1.setPhoneNumber("998765432");
+            user1.setPassword("Biryani");
+            user1.setFullName("Pavithra");
+            user1.setBusinessName("Collaborations");
 
             Meesho meesho = new Meesho();
             if (meesho.userSignUp(user1)) {

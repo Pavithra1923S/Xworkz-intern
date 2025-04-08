@@ -6,11 +6,11 @@ public class BlinkitRunner
 
         public static void main(String[] args) {
             BlinkitUserDto user1 = new BlinkitUserDto();
-            user1.setEmail("quickgroceries@blinkit.com");
-            user1.setPhoneNumber("9001122334");
-            user1.setPassword("Blinkit@2025");
-            user1.setFullName("Sneha Verma");
-            user1.setDeliveryAddress("JP Nagar, Bangalore");
+            user1.setEmail("pavithrasgowda@gmail.com");
+            user1.setPhoneNumber("9999999999");
+            user1.setPassword("Biryani@01");
+            user1.setFullName("Pavithra");
+            user1.setDeliveryAddress("Bangalore");
 
             Blinkit blinkit = new Blinkit();
             if (blinkit.userSignUp(user1)) {

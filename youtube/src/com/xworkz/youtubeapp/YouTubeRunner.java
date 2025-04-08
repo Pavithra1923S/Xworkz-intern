@@ -8,11 +8,11 @@ public class YouTubeRunner {
         public static void main(String[] args) {
 
             YouTubeDto user = new YouTubeDto();
-            user.setUserEmail("creatorvanjre@example.com");
-            user.setChannelName("TechWithmahesh");
-            user.setPassword("youtube123");
-            user.setConfirmPassword("maheshyoutube123");
-            user.setMobile(9876543210L);
+            user.setUserEmail("pavithrasgowda.com");
+            user.setChannelName("all in one kannada");
+            user.setPassword("Biryani");
+            user.setConfirmPassword("Biryani");
+            user.setMobile(990876543L);
 
             YouTubeLogIn login = new YouTubeLogIn();
             boolean result = login.startSignIn(user);

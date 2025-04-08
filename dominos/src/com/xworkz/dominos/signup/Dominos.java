@@ -25,7 +25,7 @@ public class Dominos {
                 System.out.println("Invalid Phone Number: Must be 10 digits.");
             }
 
-            if (user.getPassword() != null && user.getPassword().length() >= 8 && user.getPassword().length() <= 16) {
+            if (user.getPassword() != null && user.getPassword().length() >= 7 && user.getPassword().length() <= 16) {
                 isPasswordValid = true;
             } else {
                 System.out.println("Invalid Password: Should be 8 to 16 characters long.");

@@ -12,11 +12,11 @@ public class LinkedInRunner {
         linkedInDto.setEmailAddress("pavi@outlook.com");
         linkedInDto.setPassword("pavi123");
         linkedInDto.setCountry(Country.INDIA);
-        linkedInDto.setPhoneNo(999999L);
+        linkedInDto.setPhoneNo(999999999L);
         linkedInDto.setDob("01/01/2003");
         linkedInDto.setJobTitle("Student");
         linkedInDto.setLocation("Banglore");
-        linkedInDto.setCaptcha("kkwod63");
+        linkedInDto.setCaptcha("kkw765444");
 
         LinkedInRegCheck linkedInRegCheck = new LinkedInRegCheck();
         linkedInRegCheck.userRegistered(linkedInDto);

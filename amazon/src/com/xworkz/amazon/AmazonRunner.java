@@ -13,10 +13,10 @@ public class AmazonRunner {
         amazonDto.setEmailAddress("pavi@gmail.com");
         amazonDto.setPhoneNo(88888888L);
         amazonDto.setPassword("pavi@2003");
-        amazonDto.setGender(Gender.female);
+        amazonDto.setGender(Gender.FEMALE);
         amazonDto.setDob("06/07/2001");
         amazonDto.setLocation("Bangalore");
-        amazonDto.setAddress("21 lig rajajinagar");
+        amazonDto.setAddress("rajajinagar");
         amazonDto.setPaymentMethod(PaymentMethod.CREDIT);
 
 

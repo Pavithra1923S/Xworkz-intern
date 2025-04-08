@@ -5,11 +5,11 @@ public class ZeptoRunner
 {
     public static void main(String[] args) {
         ZeptoUserDto user1 = new ZeptoUserDto();
-        user1.setEmail("user@zepto.com");
+        user1.setEmail("pavithrasgowda@gmail.com");
         user1.setPhoneNumber("9876543210");
-        user1.setName("Ananya R");
-        user1.setPassword("Groceries@123");
-        user1.setAddress("12th Cross, JP Nagar, Bangalore");
+        user1.setName("Pavithra");
+        user1.setPassword("Biryani@01");
+        user1.setAddress("Bangalore");
 
         Zepto zepto = new Zepto();
         if (zepto.userSignUp(user1)) {

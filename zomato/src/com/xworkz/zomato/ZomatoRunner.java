@@ -7,10 +7,10 @@ public class ZomatoRunner {
     public static void main(String[] args) {
 
         ZomatoDto zomatoDto = new ZomatoDto();
-        zomatoDto.setFirstName("pavi");
+        zomatoDto.setFirstName("pavithra");
         zomatoDto.setLastName("S");
-        zomatoDto.setEmailAddress("pavi@test.com");
-        zomatoDto.setPhoneNo(98876543L);
+        zomatoDto.setEmailAddress("pavi@.com");
+        zomatoDto.setPhoneNo(980989898L);
         zomatoDto.setPassword("pavi@2003");
         zomatoDto.setDob("06-09-2003");
         zomatoDto.setLocation("Bangalore");

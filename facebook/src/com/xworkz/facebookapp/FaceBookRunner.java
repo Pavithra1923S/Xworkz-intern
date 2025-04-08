@@ -7,11 +7,11 @@ public class FaceBookRunner
 
         public static void main(String[] args) {
             FaceBookUserDto user1 = new FaceBookUserDto();
-            user1.setEmail("friend@facebook.com");
-            user1.setPhoneNumber("9123456789");
-            user1.setPassword("FbConnect@2024");
-            user1.setFullName("Akhil Reddy");
-            user1.setDateOfBirth("10-05-2000");
+            user1.setEmail("Pavithrasgowda1923@gmail.com");
+            user1.setPhoneNumber("9880478053");
+            user1.setPassword("Biryani@01");
+            user1.setFullName("Pavi");
+            user1.setDateOfBirth("10-05-2003");
 
             FaceBook facebook = new FaceBook();
             if (facebook.userSignUp(user1)) {

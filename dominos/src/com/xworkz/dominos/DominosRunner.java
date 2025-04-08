@@ -6,11 +6,11 @@ public class DominosRunner
 
         public static void main(String[] args) {
             DominosUserDto user1 = new DominosUserDto();
-            user1.setEmail("pizza.lover@dominos.com");
-            user1.setPhoneNumber("9876543210");
-            user1.setPassword("Dominos@2025");
-            user1.setFullName("Rahul Sharma");
-            user1.setDeliveryAddress("MG Road, Pune");
+            user1.setEmail("pavithrasgowda1923@gail.com");
+            user1.setPhoneNumber("9880478053");
+            user1.setPassword("Biryani1");
+            user1.setFullName("Pavithra");
+            user1.setDeliveryAddress("R t nagar");
 
             Dominos dominos = new Dominos();
             if (dominos.userSignUp(user1)) {

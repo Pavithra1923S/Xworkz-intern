@@ -10,9 +10,9 @@ public class MyntraRunner {
 
         MyntraDto myntraDto = new MyntraDto();
         myntraDto.setName("Pavithra");
-        myntraDto.setEmailAddress("pavi@test.com");
-        myntraDto.setPhoneNo(888888L);
-        myntraDto.setPassword("pavi@2003");
+        myntraDto.setEmailAddress("pavi@gmail.com");
+        myntraDto.setPhoneNo(8888889999L);
+        myntraDto.setPassword("Biryani");
         myntraDto.setAge(22);
         myntraDto.setGender(Gender.FEMALE);
         myntraDto.setDob("06/07/2001");

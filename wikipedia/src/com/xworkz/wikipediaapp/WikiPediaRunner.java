@@ -9,10 +9,10 @@ public class WikiPediaRunner {
         public static void main(String[] args) {
 
             WikiPediaDto wikiUser = new WikiPediaDto();
-            wikiUser.setEmail("pavi@example.com");
-            wikiUser.setUserName("wikimahesh123");
+            wikiUser.setEmail("pavithra.com");
+            wikiUser.setUserName("pavithrasgowda");
             wikiUser.setUserPassword("pavi@123");
-            wikiUser.setRetypePassword("Harshi@123");
+            wikiUser.setRetypePassword("pavi@123");
             wikiUser.setPreferredLanguage("English");
 
             WikipediaLogIn login = new WikipediaLogIn();

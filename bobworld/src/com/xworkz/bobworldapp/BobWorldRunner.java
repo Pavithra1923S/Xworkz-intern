@@ -7,12 +7,12 @@ public class BobWorldRunner
 
         public static void main(String[] args) {
             BobWorldUserDto user = new BobWorldUserDto();
-            user.setEmail("user@bobworld.com");
-            user.setMobileNumber("9876543210");
-            user.setPassword("BOB@1234");
-            user.setFullName("Rajesh Kumar");
+            user.setEmail("pavithrasgowdA1923@gmail.com");
+            user.setMobileNumber("9880456789");
+            user.setPassword("Biryani1");
+            user.setFullName("pavi");
             user.setAadharNumber("123456789012");
-            user.setAccountType("Savings");
+            user.setAccountType("Current");
 
             BobWorld bob = new BobWorld();
             if (bob.userSignUp(user)) {
