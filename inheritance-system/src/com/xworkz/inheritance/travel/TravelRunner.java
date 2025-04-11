@@ -9,5 +9,11 @@ public class TravelRunner {
         InternationalTrip trip = new InternationalTrip();
         trip.bookTicket();
         trip.startJourney();
+
+        Travel travel1 = new InternationalTrip();
+        System.out.println(travel1);
+
+        InternationalTrip trip1 =(InternationalTrip)travel1;
+        System.out.println(trip1);
     }
 }

@@ -1,5 +1,6 @@
 package com.xworkz.inheritance.dance;
 
+
 public class DanceRunner {
     public static void main(String[] args) {
         Dance dance = new Dance();
@@ -9,5 +10,11 @@ public class DanceRunner {
         Bharatanatyam classical = new Bharatanatyam();
         classical.startPerformance();
         classical.practiceRoutine();
+
+        Dance dance1 = new Bharatanatyam();
+        System.out.println(dance1);
+
+        Bharatanatyam bharatanatyam =(Bharatanatyam) dance1;
+        System.out.println(bharatanatyam);
     }
 }

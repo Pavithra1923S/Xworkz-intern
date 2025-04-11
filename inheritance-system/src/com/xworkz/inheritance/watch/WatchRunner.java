@@ -9,5 +9,11 @@ public class WatchRunner {
         SmartWatch smart = new SmartWatch();
         smart.showTime();
         smart.setAlarm();
+
+        Watch watch1 = new SmartWatch();
+        System.out.println(watch1);
+
+        SmartWatch smartWatch =(SmartWatch) watch1;
+        System.out.println(smartWatch);
     }
 }

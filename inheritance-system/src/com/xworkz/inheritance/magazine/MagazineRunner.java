@@ -9,5 +9,11 @@ public class MagazineRunner {
         FashionMagazine fashion = new FashionMagazine();
         fashion.designCover();
         fashion.publishEdition();
+
+        Magazine magazine = new FashionMagazine();
+        System.out.println(magazine);
+
+        FashionMagazine fashionMagazine =(FashionMagazine) magazine;
+        System.out.println(fashionMagazine);
     }
 }

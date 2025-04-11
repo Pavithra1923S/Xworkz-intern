@@ -9,5 +9,11 @@ public class BatteryRunner {
         RechargeableBattery rBattery = new RechargeableBattery();
         rBattery.chargeBattery();
         rBattery.checkPowerLevel();
+
+        Battery bb = new RechargeableBattery();
+        System.out.println(bb);
+
+        RechargeableBattery nn = (RechargeableBattery) bb;
+        System.out.println(nn);
     }
 }

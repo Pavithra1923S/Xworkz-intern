@@ -13,5 +13,11 @@ public class ClothRunner {
         Top top = new Top();
         top.material();
         top.covers();
+
+        Cloth cloth1 = new Top();
+        System.out.println(cloth1);
+
+        Top top1 =(Top) cloth1;
+        System.out.println(top1);
     }
 }

@@ -10,5 +10,10 @@ public class BankRunner {
         CanaraBank canaraBank = new CanaraBank();
         canaraBank.deposit();
         canaraBank.interestRate();
+
+        Bank bank1 = new CanaraBank();
+        System.out.println(bank1);
+        CanaraBank canaraBank1 =(CanaraBank) bank1;
+        System.out.println(canaraBank1);
     }
 }

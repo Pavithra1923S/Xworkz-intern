@@ -9,5 +9,12 @@ public class BottleRunner {
         Milton milton = new Milton();
         milton.fillWater();
         milton.cleanBottle();
+
+        Bottle bottle1 = new Milton();
+        System.out.println(bottle1);
+
+        Milton milton1 = (Milton) bottle1;
+        System.out.println(milton1);
+
     }
 }

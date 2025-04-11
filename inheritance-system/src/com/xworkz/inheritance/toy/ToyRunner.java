@@ -9,5 +9,11 @@ public class ToyRunner {
         RemoteCar car = new RemoteCar();
         car.playWithToy();
         car.storeToy();
+
+        Toy toy1 = new RemoteCar();
+        System.out.println(toy1);
+
+        RemoteCar remoteCar =(RemoteCar) toy1;
+        System.out.println(remoteCar);
     }
 }

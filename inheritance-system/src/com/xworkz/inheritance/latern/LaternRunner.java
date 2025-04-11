@@ -9,5 +9,12 @@ public class LaternRunner {
         SolarLantern solar = new SolarLantern();
         solar.lightLantern();
         solar.extinguishLantern();
+
+
+        Lantern lantern1 = new SolarLantern();
+        System.out.println(lantern1);
+
+        SolarLantern solarLantern =(SolarLantern) lantern1;
+        System.out.println(solarLantern);
     }
 }

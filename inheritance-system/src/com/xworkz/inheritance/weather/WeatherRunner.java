@@ -9,5 +9,11 @@ public class WeatherRunner {
         CityWeather city = new CityWeather();
         city.recordTemperature();
         city.predictRainfall();
+
+        weatherReport report1 = new CityWeather();
+        System.out.println(report1);
+
+        CityWeather cityWeather =(CityWeather) report1;
+        System.out.println(cityWeather);
     }
 }

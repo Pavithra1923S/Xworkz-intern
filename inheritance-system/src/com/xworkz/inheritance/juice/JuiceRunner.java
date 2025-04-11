@@ -1,8 +1,5 @@
 package com.xworkz.inheritance.juice;
 
-import com.xworkz.inheritance.tea.RedLabel;
-import com.xworkz.inheritance.tea.Tea;
-
 public class JuiceRunner {
     public static void main(String args[]) {
 
@@ -13,5 +10,11 @@ public class JuiceRunner {
         Maaza maaza = new Maaza();
         maaza.taste();
         maaza.cool();
+
+        Juice juice1 = new Maaza();
+        System.out.println(juice1);
+
+        Maaza maaza1 =(Maaza) juice1;
+        System.out.println(maaza1);
     }
 }

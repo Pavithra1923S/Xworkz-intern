@@ -9,6 +9,12 @@ public class VegetableRunner {
         Carrot carrot = new Carrot();
         carrot.washVegetable();
         carrot.chopVegetable();
+
+        Vegetable vegetable = new Carrot();
+        System.out.println(vegetable);
+
+        Carrot carrot1 =(Carrot) vegetable;
+        System.out.println(carrot1);
     }
 
 }

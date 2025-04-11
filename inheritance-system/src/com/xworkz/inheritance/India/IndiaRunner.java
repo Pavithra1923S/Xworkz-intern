@@ -9,5 +9,11 @@ public class IndiaRunner {
         Karnataka state = new Karnataka();
         state.showNationalAnimal();
         state.showNationalAnthem();
+
+        India india1 = new Karnataka();
+        System.out.println(india1);
+
+        Karnataka karnataka =(Karnataka) india1;
+        System.out.println(karnataka);
     }
 }

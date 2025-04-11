@@ -9,5 +9,11 @@ public class CampRunner {
         NccCamp ncc = new NccCamp();
         ncc.registerParticipants();
         ncc.arrangeTents();
+
+        Camp camp1 = new NccCamp();
+        System.out.println(camp1);
+
+        NccCamp nccCamp = (NccCamp)camp1;
+        System.out.println(nccCamp);
     }
 }

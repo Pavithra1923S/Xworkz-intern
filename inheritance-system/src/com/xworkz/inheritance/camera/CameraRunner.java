@@ -9,5 +9,11 @@ public class CameraRunner {
         DSLR dslr = new DSLR();
         dslr.clickPhoto();
         dslr.recordVideo();
+
+        Camera camera = new DSLR();
+        System.out.println(camera);
+
+        DSLR dslr1 =(DSLR) camera;
+        System.out.println(dslr1);
     }
 }

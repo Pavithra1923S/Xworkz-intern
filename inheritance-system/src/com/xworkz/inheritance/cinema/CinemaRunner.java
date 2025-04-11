@@ -9,5 +9,12 @@ public class CinemaRunner {
         Multiplex inox = new Multiplex();
         inox.playMovie();
         inox.dimLights();
+
+        Cinema cinema1 = new Multiplex();
+        System.out.println(cinema1);
+
+        Multiplex multiplex =(Multiplex) cinema1;
+        System.out.println(multiplex);
+
     }
 }

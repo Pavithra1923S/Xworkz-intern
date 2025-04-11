@@ -9,5 +9,11 @@ public class CompassRunner {
         DigitalCompass digital = new DigitalCompass();
         digital.pointNorth();
         digital.showDirection();
+
+        Compass compass1 = new DigitalCompass();
+        System.out.println(compass1);
+
+        DigitalCompass digitalCompass =(DigitalCompass) compass1;
+        System.out.println(digitalCompass);
     }
 }

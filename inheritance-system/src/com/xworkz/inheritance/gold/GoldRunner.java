@@ -11,5 +11,11 @@ public class GoldRunner {
         Jewel jewel = new Jewel();
         jewel.costly();
         jewel.valuable();
+
+        Gold gold1 = new Jewel();
+        System.out.println(gold1);
+
+        Jewel jewel1 =(Jewel) gold1;
+        System.out.println(jewel1);
     }
 }

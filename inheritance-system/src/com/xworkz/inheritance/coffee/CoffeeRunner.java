@@ -9,5 +9,11 @@ public class CoffeeRunner {
         ColdCoffee cold = new ColdCoffee();
         cold.brewCoffee();
         cold.serveCoffee();
+
+        Coffee coffee1 = new ColdCoffee();
+        System.out.println(coffee1);
+
+        ColdCoffee coldCoffee =(ColdCoffee) coffee1;
+        System.out.println(coldCoffee);
     }
 }

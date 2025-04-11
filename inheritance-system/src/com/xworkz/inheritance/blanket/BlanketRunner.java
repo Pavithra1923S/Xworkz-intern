@@ -9,5 +9,11 @@ public class BlanketRunner {
         WoolenBlanket woolen = new WoolenBlanket();
         woolen.foldBlanket();
         woolen.washBlanket();
+
+        Blanket blanket1 = new WoolenBlanket();
+        System.out.println(blanket1);
+
+        WoolenBlanket woolenBlanket = (WoolenBlanket)blanket1;
+        System.out.println(woolenBlanket);
     }
 }

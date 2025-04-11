@@ -1,7 +1,5 @@
 package com.xworkz.inheritance.light;
 
-import com.xworkz.inheritance.sweet.Mysorepak;
-import com.xworkz.inheritance.sweet.Sweet;
 
 public class LightRunner {
     public static void main(String[] args) {
@@ -14,6 +12,12 @@ public class LightRunner {
         TubeLight tb = new TubeLight();
         tb.see();
         tb.source();
+
+        Light light1 = new TubeLight();
+        System.out.println(light1);
+
+        TubeLight tubeLight =(TubeLight) light1;
+        System.out.println(tubeLight);
 
 
 

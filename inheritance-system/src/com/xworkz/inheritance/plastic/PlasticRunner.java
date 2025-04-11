@@ -12,7 +12,11 @@ public class PlasticRunner {
         bottle.validatePlasticDetails();
         bottle.getPlasticInfo();
 
+        Plastic plastic1 = new Bottle();
+        System.out.println(plastic1);
 
+        Bottle bottle1 =(Bottle) plastic1;
+        System.out.println(bottle1);
     }
 }
 

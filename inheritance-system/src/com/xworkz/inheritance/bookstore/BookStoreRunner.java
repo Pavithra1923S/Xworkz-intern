@@ -9,5 +9,11 @@ public class BookStoreRunner {
         OnlineBookStore online = new OnlineBookStore();
         online.addNewBook();
         online.displayBooks();
+
+        BookStore bookStore =new OnlineBookStore();
+        System.out.println(bookStore);
+
+        OnlineBookStore onlineBookStore =(OnlineBookStore) bookStore;
+        System.out.println(onlineBookStore);
     }
 }
